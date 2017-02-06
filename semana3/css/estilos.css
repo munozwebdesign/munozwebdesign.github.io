@@ -1,0 +1,210 @@
+/* Estilos propios */
+
+body{
+	background-color: #f5f5f5;
+}
+header .topbar{
+	
+}
+
+header input[type=search] {
+    border-bottom: 1px solid white;
+}
+
+
+header .logo img{
+	margin-top: 1.25rem;
+	max-height: 3.75rem;
+}
+
+header i.search{
+	color: white;
+}
+
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 32px;
+    line-height: 32px;
+}
+
+
+nav ul a {
+    transition: background-color .3s;
+    font-size: .8rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+
+.card.horizontal {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card.horizontal .card-title{
+	font-size: 1.8rem;
+}
+
+
+
+
+@media (max-width: 992px) {
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  overflow: hidden;
+	height: auto;
+}	
+.card.horizontal {
+  -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+	-webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+	
+.card.horizontal .card-image {
+    max-width: 100%;
+}	
+
+}
+
+
+.card .badge{
+	position: absolute;
+	top: 0;
+}
+
+.card span.badge {
+    
+    margin-left: 0px;
+    
+}
+
+.card span.badge.new {
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: #fff;
+    
+    border-radius: 0px;
+}
+
+.card .card-title a{
+	font-weight: bold;
+	color: #F44336;
+}
+
+.card .card-title a:hover{
+	
+	color: #D32F2F;
+	transition:  all .2s ease .2s;
+	
+}
+
+.card .item-destacado{
+	padding: 10px;
+	
+	
+}
+
+.contenido img{
+	margin-top: 1rem; 
+}
+
+header h1{
+	font-size: 48px;
+	font-weight: bold;
+	
+}
+
+time{
+	
+}
+
+time i{
+	color: #F44336;
+}
+
+.chip {
+	float: right;
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #212121 ;
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e0e0e0   ;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+}
+.chip:hover {
+   
+    background-color: #D32F2F;
+	color: white;
+	cursor: pointer;
+   
+}
+
+.comentarios h3{
+	font-size: 2.5rem;
+}
+.comentarios h4{
+	font-size: 1.5rem;
+}
+
+.comentarios .comentario{
+	border-top: 3px solid #D32F2F;
+	padding: 1rem 0;
+	
+	
+}
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Medias para noticias relacionadas*/
+@media (max-width: 1370px) {
+.card .card-title {
+    font-size: 16px;
+    font-weight: 300;
+}
+}
+
+@media (max-width: 1124px) {
+.card .card-title {
+    font-size: 12.5px;
+    font-weight: bold;
+}
+	
+}
+
+@media (max-width: 992px) {
+.card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+@media (max-width: 600px) {
+.card .card-title {
+    font-size: 24px;
+    
+}
+}
+
+/*Medias para noticias relacionadas de index*/
+@media (min-width: 600px) and (max-width: 992px) { 
+
+	aside .card .s8{
+		
+		font-size: 1.4rem;
+		font-weight: bold;
+		
+	}
+}
+
